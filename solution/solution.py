@@ -2,22 +2,7 @@
 Day 14 — AI Evaluation & Benchmarking Pipeline
 AICB-P1: AI Practical Competency Program, Phase 1
 
-Key concepts from lecture:
-    - Evaluation = Scientific Method for AI (Hypothesis → Experiment → Measure → Conclude → Iterate)
-    - 4 nhóm metrics: Task Completion, Answer Quality, RAG-Specific, Business
-    - RAG pipeline metrics: Context Recall → Context Precision → Faithfulness → Answer Relevancy
-    - LLM-as-Judge: rubric scoring 1-5, detect bias (positional, verbosity, self-preference)
-    - Golden dataset: stratified sampling (5 Easy + 7 Medium + 5 Hard + 3 Adversarial)
-    - Failure taxonomy: hallucination, irrelevant, incomplete, off_topic, refusal
-    - 5 Whys method for root cause analysis
-    - CI/CD integration: eval as quality gate (score < threshold = block deploy)
-    - Continuous Improvement Loop: Evaluate → Analyze → Improve → Augment → Repeat
-
-Instructions:
-    1. Fill in every section marked with TODO.
-    2. Do NOT change class/function signatures.
-    3. Copy this file to solution/solution.py when done.
-    4. Run: pytest tests/ -v
+Implemented Solution File.
 """
 
 from __future__ import annotations
